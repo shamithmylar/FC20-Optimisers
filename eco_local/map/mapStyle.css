@@ -1,0 +1,74 @@
+
+body { 
+      margin: 0; padding: 0; 
+}
+
+#map { 
+      position: absolute; 
+      top: 4.5rem; 
+      bottom: -3rem; 
+      width: 100%; 
+      z-index: -1;
+}
+
+.marker {
+      background-image: url('pin.png');
+      background-size: cover;
+      width: 16.25px;
+      height: 25px;
+      border-radius: 0%;
+      cursor: pointer;
+}
+
+.pointerInfo{
+      width: 20rem;
+      height: 25rem;
+      z-index: 1;
+      background-color: #fff;
+      border-radius: 15px;
+      position: absolute;
+      top: 13rem;
+      left: 1rem;
+      align-items: center !important;
+      justify-content: center;
+}     
+
+.garbage-img{
+      width: 15rem;
+      height: auto;
+      border-radius: 10px;
+      margin-left: 1rem;
+}
+
+.address{
+      text-align: left;
+      font-size: 0.7rem;
+      width: 15rem;
+      margin-left: 1rem;
+      margin-top: 1rem;
+}
+
+h4{
+       font-size: 1.5rem;
+       margin-left: 1rem;
+       margin-top: 1rem;
+}
+
+.marker2{
+      width: 1.523rem;
+      height: 2.343rem;
+      border-radius: 0%;
+      cursor: pointer;
+      display: inline;
+      margin: 1rem ;
+}
+
+.pin-status{
+      font-size: 1rem;
+      width: 15rem;
+      display: inline;
+}
+
+.status{
+      margin-top: 1rem;
+}

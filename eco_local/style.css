@@ -1,0 +1,113 @@
+*{
+    font-family: 'Inter', sans-serif;
+    color: #30311B;
+}
+
+body{
+    background-color: #E9EFC0;
+    background-image: url(Rectangle19.png);
+    background-size: cover;
+}
+
+.navbar{
+    z-index: 1;
+}
+
+.nav-bar-class{
+    background-color: #46321a !important;
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: yellow !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    margin-left: 1.3rem;
+}
+
+.logo{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.heading{
+   font-family: 'Francois One', sans-serif;
+   font-size: 6.25rem;
+   font-weight: 400;
+   margin-bottom: 2.4rem;
+}
+
+.section-right .welcome-img{
+  position: absolute;
+  width: 49.8rem;
+  height: auto;
+  left: 37.5rem;
+  top: -6px;
+}
+
+.section-left{
+    position: relative;
+    top: 8.8rem;
+}
+
+.content{
+  font-style: italic;
+  font-weight: 300;
+  width: 34rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.btn-sign-up{
+    color: #fff;
+    background-color: #3BAC01;
+    border-radius: 5px;
+    width: 9.6rem;
+    height: 2.6rem;
+    border: #3BAC01;
+    
+}
+
+.btn{
+    margin-right: 1.5rem;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-login{
+    color: #3bac01;
+    border: #3BAC01 1px solid;
+    width: 9.6rem;
+    height: 2.6rem;
+    border-radius: 5px;
+}
+
+.btn-login a{
+    color: #3BAC01;
+}
+
+.btn-login a:hover{
+    color: #fff;
+}
+
+.btn-sign-up a{
+    color: #fff;
+}
+
+.btn-login:hover{
+    background-color: #3BAC01;
+    border: #3BAC01;
+}
+
+.btn-sign-up:hover{
+    background-color: #359902;
+}
