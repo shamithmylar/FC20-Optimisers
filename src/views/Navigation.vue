@@ -1,5 +1,5 @@
 <template>
-  <h1>this is navigation section</h1>
+  redirecting to <a href="/map/mapIndex.html">maps</a>
 </template>
 
 <script>

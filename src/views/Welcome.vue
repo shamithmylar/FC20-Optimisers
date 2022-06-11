@@ -39,7 +39,8 @@ export default {
 <style>
   .welcome {
     text-align: center;
-    padding: 20px 0;
+    margin: 10rem auto;
+    font-family: 'Inter', sans-serif;
   }
   /* form styles */
   .welcome form {
@@ -54,9 +55,9 @@ export default {
     width: 100%;
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid #eee;
+    border: 1px solid #ddd;
     outline: none;
-    color: #999;
+    color: #000;
     margin: 10px auto;
   }
   .welcome span{

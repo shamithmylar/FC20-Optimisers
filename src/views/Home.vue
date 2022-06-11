@@ -1,5 +1,9 @@
 <template>
-<div class="container container-home flex-column  flex-md-row">
+<div class="home-heading">
+<h2>Welcome ~ </h2>
+<p>"The environment is no one’s property to destroy. It’s everyone’s responsibility to protect."</p>
+</div>
+<div class="container container-home flex-column flex-wrap flex-md-row">
   <div class="card card-home" style="width: 18rem;">
   <img src="../assets/images/trash.png" class="card-img-top" alt="...">
   <div class="card-body">
@@ -33,14 +37,25 @@
 <script>
 // @ is an alias to /src
 
-
 export default {
-  name: 'Home',
-  
+  name: 'Home',  
 }
 </script>
 
 <style>
+
+
+  .card-title{
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .card-img-top{
+    width: 85%;
+    height: auto;
+    margin: 1rem auto;
+  }
+
   .container-home{
     display: flex;
     align-content: center;
@@ -50,7 +65,8 @@ export default {
   }
 
   .card-home{
-    margin: 5rem 2rem;
+    margin: 2rem 2rem;
+    border-radius: 10px;
   }
 
   .btn-outline-success{
@@ -62,5 +78,15 @@ export default {
   .btn-outline-success:hover{
     color: #fff;
     background: #3BAC01;
+  }
+
+  .home-heading{
+    margin-top: 4rem;
+  }
+
+  .home-heading p{
+    font-size: 1.1rem;
+    width: 80%;
+    margin: 0 auto;
   }
 </style>

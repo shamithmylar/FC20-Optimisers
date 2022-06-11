@@ -20,8 +20,7 @@
       </li>
       <li class="nav-item active">
         <router-link :to="{name:'funding'}" class="nav-link"> Funding </router-link>
-      </li>
-     
+      </li> 
     </ul>
   </div>
 </nav>
@@ -30,6 +29,10 @@
 <style>
 .navbar{
     background: #46321a !important;
+}
+
+.nav-link:active{
+  color: #E9EFC0 ;
 }
 
 .navbar-light .navbar-nav .active>.nav-link{
@@ -53,4 +56,26 @@
 .navbar-light .navbar-nav .active>.nav-link:hover{
     color: #E9EFC0 !important;
 }
+
+.logout-btn{
+  color: #fff;;
+  background: #46321a ;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  width: 8rem;
+  font-weight: 500;
+}
+
+.nav-content{
+  color: #fff;
+  font-weight: 400;
+  display: flex-row;
+  line-height: 0.5;
+  text-align: left;
+  position: absolute;
+  right: 2rem;
+  margin: 0.4rem 0;
+}
+
+
 </style>
